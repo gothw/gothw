@@ -1,4 +1,4 @@
 module.exports = [{
-      plugin: require('/Users/alberto/Apps/SuperProps/packages/landing-gatsby/gatsby-browser.js'),
+      plugin: require('/Users/alberto/Apps/gothw/packages/landing-gatsby/gatsby-browser.js'),
       options: {"plugins":[]},
     }]

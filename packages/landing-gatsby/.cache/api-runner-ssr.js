@@ -1,14 +1,14 @@
 var plugins = [{
-      plugin: require('/Users/alberto/Apps/SuperProps/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      plugin: require('/Users/alberto/Apps/gothw/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[],"minify":false},
     },{
-      plugin: require('/Users/alberto/Apps/SuperProps/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/alberto/Apps/gothw/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/alberto/Apps/SuperProps/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('/Users/alberto/Apps/gothw/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/gatsby-icon.png"},
     },{
-      plugin: require('/Users/alberto/Apps/SuperProps/node_modules/gatsby-plugin-prefetch-google-fonts/gatsby-ssr'),
+      plugin: require('/Users/alberto/Apps/gothw/node_modules/gatsby-plugin-prefetch-google-fonts/gatsby-ssr'),
       options: {"plugins":[],"fonts":[{"family":"Roboto","variants":["100","100i","300","300i","400","400i","500","500i","700","700i","900","900i"]},{"family":"Poppins","variants":["300","400","500","600","700"]},{"family":"Lato","variants":["300","400","700"]},{"family":"Open Sans","variants":["300","400","700"]}]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
