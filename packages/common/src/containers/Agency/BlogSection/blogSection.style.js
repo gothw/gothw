@@ -20,7 +20,7 @@ const BlogSectionWrapper = styled.section`
       margin: 0 12px 24px;
       transition: all 0.3s ease;
       @media only screen and (max-width: 1200px) {
-        height: 400px;
+        height: 250px;
       }
       @media only screen and (max-width: 991px) {
         width: calc(100% / 2 - 24px);
