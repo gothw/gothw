@@ -30,7 +30,7 @@ const BlogSectionWrapper = styled.section`
         }
       }
       @media only screen and (max-width: 767px) {
-        width: calc(100% - 24px);
+        width: calc(100% / 2 - 24px);
       }
       .icon__wrapper {
         position: absolute;
